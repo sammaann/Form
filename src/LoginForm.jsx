@@ -37,11 +37,11 @@ const LoginForm = () => {
           <div className="or-divider">Or Continue With</div>
           <div className="social-login">
             <button type="button" className="google-login">
-              <FcGoogle className="text-2xl mr-2" />
+              <FcGoogle className="google-icon"/>
               Google
             </button>
             <button type="button" className="facebook-login">
-              <MdFacebook />
+            <MdFacebook className="fbicon.style"/>
               Facebook
             </button>
           </div>
