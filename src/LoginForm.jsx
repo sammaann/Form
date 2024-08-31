@@ -3,10 +3,9 @@ import "./LoginForm.css";
 import { FcGoogle } from "react-icons/fc";
 import { MdFacebook } from "react-icons/md";
 
-
 const LoginForm = () => {
   return (
-    <div className="login-container">
+    <div className="login-container"> 
       <div className="form-section">
         <h2>Log In</h2>
         <p>Welcome back! Please enter your details</p>
@@ -18,7 +17,6 @@ const LoginForm = () => {
               id="email"
               placeholder="Enter your email"
               required
-    
             />
           </div>
           <div className="input-group">
@@ -39,12 +37,11 @@ const LoginForm = () => {
           <div className="or-divider">Or Continue With</div>
           <div className="social-login">
             <button type="button" className="google-login">
-            <FcGoogle />
-            Google
+              <FcGoogle className="text-2xl mr-2" />
+              Google
             </button>
-            
             <button type="button" className="facebook-login">
-            <MdFacebook />
+              <MdFacebook />
               Facebook
             </button>
           </div>
@@ -54,7 +51,10 @@ const LoginForm = () => {
         </p>
       </div>
       <div className="image-section">
-        <img src="https://img.freepik.com/free-photo/young-woman-exercising-with-her-headphones_23-2149127345.jpg" alt="Login" />
+        <img
+          src="https://img.freepik.com/free-photo/young-woman-exercising-with-her-headphones_23-2149127345.jpg"
+          alt="Login"
+        />
       </div>
     </div>
   );
